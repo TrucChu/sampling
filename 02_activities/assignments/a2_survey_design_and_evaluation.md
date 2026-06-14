@@ -40,30 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors driving high turnover among entry- and lower-level employees across departments, and to determine which organizational changes would most improve job satisfaction and retention. By measuring employees' perceptions of compensation, career growth, management support, and workplace culture, HR can design targeted interventions to reduce turnover before it escalates further.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current employees in entry- and lower-level positions across the company's departments — the group experiencing the turnover problem and best positioned to explain why employees are leaving or staying.
+Sampling frame: The company's HR information system (HRIS), which contains a complete list of all current employees with attributes like department, job level, and tenure. This is essentially a complete and accurate frame since HR maintains it for payroll and administration.
+Sampling units: Individual employees are both the sampling unit (the unit selected) and the observational unit (the unit providing data).
+Sampling strategy: A stratified random sample, stratified by department (and optionally by tenure band, e.g., <6 months, 6–24 months, 2+ years). Turnover is described as occurring "across many departments," so simple random sampling risks under-representing smaller departments and missing department-specific drivers. Stratifying by department ensures every department contributes enough responses for meaningful comparison, while random selection within each stratum keeps the sample representative and avoids selection bias. If the entry-/lower-level population is small enough (e.g., under a few thousand), a near-census approach (surveying everyone in this group) could be justified instead, maximizing statistical power for department-level breakdowns — but stratified sampling is more efficient if the population is large.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been with the company? (Less than 6 months / 6–12 months / 1–2 years / 2–3 years / 3+ years)
+2. Which department do you currently work in? (list of departments)
+3.  Overall, how satisfied are you with your current role? (Very dissatisfied – Very satisfied, 5-point scale)
+4. How would you rate the opportunities for career growth and advancement available to you? (Very poor – Excellent, 5-point scale)
+5. How would you rate the support, feedback, and communication you receive from your direct manager? (Very poor – Excellent, 5-point scale)
+6. How would you rate your work-life balance in your current role? (Very poor – Excellent, 5-point scale)
+7. Which ONE of the following would most improve your likelihood of staying long-term? (Compensation/benefits / Career growth opportunities / Management quality / Work-life balance / Company culture / Recognition for contributions / Other — please specify)
+8. Is there anything else about your experience at the company you'd like to share? (open-ended)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +72,34 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+The survey utilized a stratified design employing probability sampling. It used a two-stage sampling design where the initial units were groups of telephone numbers and the final stage units were individuals within identified households. A rejective sampling approach was also used, where respondents were classified as volunteers or non-volunteers, followed by sub-sampling for selected non-volunteers.
+2. Sample size
+The target sample size was 20,000 respondents. The actual achieved number of respondents, excluding rejected cases, was 16,149.
+3. Target population
+The target population included all persons aged 15 years and older residing in the ten provinces of Canada. It specifically excluded full-time residents of institutions and individuals living in the Yukon, Northwest Territories, and Nunavut.
+4. Sampling frame
+The ten provinces were divided into geographic strata, with many Census Metropolitan Areas (CMAs) acting as separate strata.
+5. Survey mode(s) 
+Data was collected directly from respondents via an electronic questionnaire or through computer-assisted telephone interviewing (CATI). This cycle offered the internet option for the first time. Proxy reporting was not permitted.
+6. Timeline
+The collection period occurred over four months, from September to December 2018.
+7. Response rate
+Rejection rates varied significantly by province and respondent type, with the final yield being 16,149 respondents out of a targeted 20,000.
+8. Weights
+Weighting is necessary because the stratified design resulted in significant differences in sampling fractions between strata, leading to over-representation and under-representation of certain areas. Weights are used to adjust for these unequal selection probabilities and non-response to ensure the sample accurately represents the target population.
+9. Data processing
+Edits were conducted automatically and manually at both the macro and micro levels. Processing included consistency checks, such as comparing a respondent's age against their birth date, as well as flow edits to ensure respondents followed the correct questionnaire path.
+10. Cleaning, imputation, etc
+Imputation was executed in nine specific steps. The initial step involved imputing personal and family income. Subsequent steps involved imputing formal volunteering variables and informal volunteering variables. Error detection was integrated into the CATI system.
+11. Sources of error
+The survey is subject to non-response error, which may vary by demographic group and compound the lack of representativeness in the unweighted sample. Sampling errors are also present due to the complex stratified and rejective sampling design. Furthermore, the introduction of the electronic questionnaire might have impacted estimations.
+12. Limitations, known biases, etc
+A major limitation is that results from the 2018 GSS GVP cannot be compared to previous iterations. This incomparability stems from the introduction of the electronic questionnaire, the rewording of questions to reflect new technologies, and the implementation of new limits for volunteer hours and donation amounts. 
+13. Link to documentation and any additional sources used
+- Statistics Canada IMDB Methodology
+- Statistics Canada Summary of Changes
+- Odesi Data Explorer
 ```
 
 ## Rubric
